@@ -1,0 +1,9 @@
+[Unit]
+Description=Update SBFspot database every 5 minutes for day data
+
+[Timer]
+OnCalendar=*:0/5
+Persistent=true
+
+[Install]
+WantedBy=timers.target

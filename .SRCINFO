@@ -1,0 +1,34 @@
+pkgbase = sbfspot-mysql-git
+	pkgdesc = Yet another tool to read power production of SMA(R) solar inverters
+	pkgver = 3.7.0
+	pkgrel = 1
+	url = https://github.com/SBFspot/SBFspot
+	arch = any
+	groups = base-devel
+	license = cc-by-nc-sa-3.0
+	makedepends = make
+	makedepends = git
+	makedepends = gcc
+	makedepends = boost
+	makedepends = mysql
+	depends = bluez
+	depends = bluez-libs
+	depends = bluez-utils
+	depends = libusb-compat
+	depends = mariadb-libs
+	depends = boost-libs
+	source = sbfspot.sh
+	source = sbfspot-daydata.service
+	source = sbfspot-daydata.timer
+	source = sbfspot-monthdata.service
+	source = sbfspot-monthdata.timer
+	source = git+https://github.com/SBFspot/SBFspot.git
+	md5sums = 356f86aa3ba26ca2e1004bf8a2badc50
+	md5sums = aa7efbcd06a02ae4450ec3b39238f0aa
+	md5sums = 2208ff6d2569d95f473b57019f7fe7a1
+	md5sums = f43b59bf4e2c653a59a2d9a86f0b5a55
+	md5sums = 1af3ed6abaa92aaf931b0c92b180fa96
+	md5sums = SKIP
+
+pkgname = sbfspot-mysql-git
+
